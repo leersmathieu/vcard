@@ -28,15 +28,16 @@ a {
     display: flex;
     font-size: 20px;
     background-color: rgb(172, 141, 128);
+    background-image: -moz-linear-gradient(left, black, yellow, red);
     padding-top: 50px;
     padding-left: 50px;
-    border: 9px solid black;
+    border: 3px solid black;
     border-radius: 50px;
-    border-color: rgb(97, 14, 14);
-    border-style: double;
+    border-color: rgb(27, 27, 27);
+    border-style: solid;
     border-top-left-radius: 130px;
     border-bottom-right-radius: 130px;
-    
+    box-shadow: 0px 0px 16px 10px rgb(221, 221, 106, 0.5);
     
 }
 
@@ -71,6 +72,7 @@ a {
     box-shadow: 9px 0px 8px -10px  black;
     position: absolute;
     top: 345px;
+    font-weight: bold;
 }
 
 .reponse {
