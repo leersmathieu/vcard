@@ -1,17 +1,41 @@
 img {
     max-width:240px;
     height: auto;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+body {
+    width: 99%;
+    height: 99%;
+    background-image: url("bois.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    margin-bottom: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(97, 14, 14);
 }
 
 .page {
     margin-top: 300px;
-    margin-left: 400px;
-    height: 80vh;
-    width: 900px;
+    margin-left: 350px;
+    height: 38vh;
+    width: 1100px;
     display: flex;
-    margin-bottom: 200px;
     font-size: 20px;
-    
+    background-color: rgb(172, 141, 128);
+    padding-top: 50px;
+    padding-left: 50px;
+    border: 9px solid black;
+    border-radius: 50px;
+    border-color: rgb(97, 14, 14);
+    border-style: double;
+    border-top-left-radius: 130px;
+    border-bottom-right-radius: 130px;
     
     
 }
@@ -25,13 +49,14 @@ img {
 .right {
     float: right;
     margin-left: 200px;
+    
 }
 
 .accroche {
     margin-left: 300px;
     margin-right: 6000px;
     position: absolute;
-    top: 265px;
+    top: 340px;
     display: block;
     width: 220px;
     font-size: 18px;
@@ -41,13 +66,18 @@ img {
 
 .question {
     float: left;
+    padding-left: 50px;
+    padding-right: 20px;
+    box-shadow: 9px 0px 8px -10px  black;
+    position: absolute;
+    top: 345px;
 }
 
 .reponse {
     float: right;
     margin-left: 200px;
     position: absolute;
-    top: 300px;
+    top: 345px;
 }
 
 #ajust {
