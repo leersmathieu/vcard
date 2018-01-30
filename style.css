@@ -1,0 +1,55 @@
+img {
+    max-width:240px;
+    height: auto;
+}
+
+.page {
+    margin-top: 300px;
+    margin-left: 400px;
+    height: 80vh;
+    width: 900px;
+    display: flex;
+    margin-bottom: 200px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.left {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.right {
+    float: right;
+    margin-left: 200px;
+}
+
+.accroche {
+    margin-left: 300px;
+    margin-right: 6000px;
+    position: absolute;
+    top: 265px;
+    display: block;
+    width: 220px;
+    font-size: 18px;
+    
+    
+}
+
+.question {
+    float: left;
+}
+
+.reponse {
+    float: right;
+    margin-left: 200px;
+    position: absolute;
+    top: 300px;
+}
+
+#ajust {
+    padding-top: 25px;
+}
